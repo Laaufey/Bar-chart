@@ -40,6 +40,6 @@ function start() {
   array.push(queueSize);
 
   for (let i = 0; i < 40; i++) {
-    allBars[i].style.height = array[i] + "px";
+    allBars[i].style.height = array[i] + "vw";
   }
 }
